@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+body{
+    background-image: url("../img/bg.png");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#wrapper{
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+}
+#game{
+    display: grid;
+    place-items: center;
+}
+
+#canvas{
+    background-color: white;
+    
+    
+}
+
+#board{
+    display: flex;
+    
+
+    width: 600px;
+    height: 50px;
+    background-color: rgb(155, 155, 155);
+}
+
+#timer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    font-family: "Arial";
+    font-size: 25px;
+    padding-left: 10px;   
+}
+#pause{
+    height: 35px;
+    width: 35px;
+}
+
+.split{
+    width: 45%;
+    height: 100%;
+}
+
+mark{
+    background-color: transparent;
+}
+
+.margin-right-div{
+    width: 5%;
+    height: 100%;
+}
+.p_button{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+
+    height: 100%;
+    width: 100%;
+}
+
+#score{
+    display: grid;
+    place-items: center;
+    width: 600px;
+    height: 50px;
+    background-color: rgb(100, 100, 100);
+}
+#score_2{
+    height: 100%;
+    width: 50%;
+    display:flex;
+
+    
+    align-items: center;
+
+    font-family: "Arial";
+    font-size: 25px;
+    padding-left: 10px;   
+}
+#lives{
+    display: flex;
+    height: 100%;
+    width: 45%;
+
+    align-items: center;
+    justify-content: right;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
+#lives{
+    font-family: "Arial";
+    font-size: 25px;
+}
+
+.swal2-popup,.swal2-title,.swal2-html-container {
+    font-family: "Arial";
+  }

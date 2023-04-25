@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+<html>
+    <head></head>
+    <body onload="drawIt()">
+        <div id="wrapper">
+            <div id="main">
+                <div id="game">
+                    <canvas id="canvas" height="600" width="600">
+                        <img id="wood" src="img/wood_cracked.png" alt=""/>
+                        <img id="more_wood" src="img/wood.png" alt=""/>
+
+
+                    </canvas>
+                </div>
+            </div>
+            <div id="board">
+                <div id="timer">
+                    Time: &nbsp;<mark id="cas">00:00</mark>
+                </div>
+                <div class="split">
+                    <div class="p_button">
+                        <button onclick="pause()" id="pause">| | </button>
+                    </div>
+                </div>
+                <div class="margin-right-div"></div>  
+            </div>
+            <div id="score">
+                <div class="wrap">
+                    <div id="score_2">
+                        Score: &nbsp;<p id="tocke">3</p>
+                    </div>
+                    <div id="lives">
+                        Lives:&nbsp; <p id="zivljenja"></p>
+                    </div> 
+                    <div class="margin-right-div"></div>    
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/script/soundmanager2-nodebug-jsmin.js"></script>
+    <script defer src="soundeffect.js"></script>
+    <script defer src="scipt.js"></script>
+    
+</html>
