@@ -64,9 +64,7 @@ function drawIt() {
 
 
     function draw() {
-      if(lives==1){
-        lose_game();
-      }
+      
       
       if(tocke==73){
         win_game();
@@ -111,9 +109,9 @@ function drawIt() {
       }
     }
     
-    
-
-
+    if(lives==0){
+      lose_game();
+    }
 
 
     //premikanje ploscka levo - denso
